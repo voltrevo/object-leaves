@@ -18,6 +18,8 @@
     "leaves"
   ],
   "devDependencies": {
+    "eslint-config-voltrevo": "0.0.3",
+    "eslint-plugin-require-path-exists": "^1.0.15",
     "gulp": "^3.6.0",
     "gulp-eslint": "^1.0.0",
     "gulp-exclude-gitignore": "^1.0.0",
@@ -29,6 +31,5 @@
   "scripts": {
     "prepublish": "gulp prepublish",
     "test": "gulp"
-  },
-  "license": "MIT"
+  }
 }
