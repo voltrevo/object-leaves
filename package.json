@@ -1,0 +1,34 @@
+{
+  "name": "object-leaves",
+  "version": "0.0.0",
+  "description": "Enumerates the leaves of an object.",
+  "homepage": "https://github.com/voltrevo/object-leaves#readme",
+  "repository": "voltrevo/object-leaves",
+  "author": {
+    "name": "Andrew Morris",
+    "email": "voltrevo@gmail.com",
+    "url": "http://andrewmorris.io/"
+  },
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "keywords": [
+    "object",
+    "leaves"
+  ],
+  "devDependencies": {
+    "gulp": "^3.6.0",
+    "gulp-eslint": "^1.0.0",
+    "gulp-exclude-gitignore": "^1.0.0",
+    "gulp-istanbul": "^0.9.0",
+    "gulp-mocha": "^2.0.0",
+    "gulp-plumber": "^1.0.0",
+    "gulp-nsp": "^0.4.5"
+  },
+  "scripts": {
+    "prepublish": "gulp prepublish",
+    "test": "gulp"
+  },
+  "license": "MIT"
+}
