@@ -11,11 +11,35 @@ $ npm install --save object-leaves
 
 ## Usage
 
-```js
+``` js
+'use strict';
+
 var objectLeaves = require('object-leaves');
 
-objectLeaves('Rainbow');
+console.log(objectLeaves({
+  foo: 'bar',
+  baz: 'boom',
+  one: {
+    two: {
+      three: {
+        four: {
+          five: 'six'
+        }
+      }
+    }
+  }
+}));
 ```
+
+output:
+```
+[ { key: 'foo', value: 'bar', path: [ 'foo' ] },
+  { key: 'baz', value: 'boom', path: [ 'baz' ] },
+  { key: 'five',
+    value: 'six',
+    path: [ 'one', 'two', 'three', 'four', 'five' ] } ]
+```
+
 
 ## License
 
