@@ -1,4 +1,4 @@
-# object-leaves [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
+# object-leaves [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage Status](coveralls-image)](coveralls-url)
 > Enumerates the leaves of an object.
 
 
@@ -52,3 +52,5 @@ MIT © [Andrew Morris](http://andrewmorris.io/)
 [travis-url]: https://travis-ci.org/voltrevo/object-leaves
 [daviddm-image]: https://david-dm.org/voltrevo/object-leaves.svg?theme=shields.io
 [daviddm-url]: https://david-dm.org/voltrevo/object-leaves
+[coveralls-image]: https://coveralls.io/repos/voltrevo/object-leaves/badge.svg?branch=master&service=github
+[coveralls-url]: https://coveralls.io/github/voltrevo/object-leaves?branch=master
